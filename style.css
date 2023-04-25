@@ -1,0 +1,68 @@
+/* Import fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.containter {
+	display:flex;
+}
+
+.left {
+	flex: 1;
+	height: 100vh;
+	background: #232327;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.main {
+	flex: 7;
+	height: 100vh;
+	background: #3c3d40;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.results {
+	flex: 9;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.inputbar {
+	flex: 1;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.inputform {
+	width: 80%;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+	padding: 1em 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.inputtext {
+	background: none;
+	border: none;
+	outline: none;
+	color: inherit;
+	width: 80%;
+}
