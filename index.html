@@ -18,27 +18,24 @@
 			</p>
 		</div>
 		<div class="main">
-			<div class="results">
+			<div class="results" id="resultContainer">
 				<h1>
 					Notes
 				</h1>
 				<section class="note">
 					<p>
 						No Notes yet...
-					</p
-				</section>
-				<section class="note">
-					<p>
-						This is also a note!
 					</p>
+					<img src="trash_icon.png" class="trash_icon" title="Click to delete note" id="firstDelBtn">
 				</section>
 			</div>
 			<span class="inputbar">
 				<form class="inputform" id="noteForm">
-					<input type="text" placeholder="Type your note here..." class="inputtext" id="noteInput">
+					<input type="text" placeholder="Type your note here..." class="inputtext" id="noteInput" autofocus="autofocus" autocomplete="off">
 				</form>
 			</div>
 		</div>
 	</div>
+	<script src="notes.js"></script>
 </body>
 </html>

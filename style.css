@@ -51,7 +51,7 @@ body {
 }
 
 .inputform {
-	width: 80%;
+	width: 60%;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 	padding: 1em 0;
 	display: flex;
@@ -64,5 +64,31 @@ body {
 	border: none;
 	outline: none;
 	color: inherit;
-	width: 80%;
+	width: 95%;
+}
+
+.note {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1em 0;
+}
+
+.note:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.trash_icon {
+	height: 1em;
+	margin-left: 5em;
+	cursor: pointer;
+	transition: transform 1s;
+	background: rgba(0, 0, 0, 0.1);
+	padding: 1em;
+	border-radius: 50%;
+}
+
+.trash_icon:hover {
+	transform: rotate(368deg);
 }
