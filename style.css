@@ -4,7 +4,7 @@
 body {
 	padding: 0;
 	margin: 0;
-	color: white;
+	color: black;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -15,7 +15,7 @@ body {
 .left {
 	flex: 1;
 	height: 100vh;
-	background: #232327;
+	background: #f1948a;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -25,7 +25,7 @@ body {
 .main {
 	flex: 7;
 	height: 100vh;
-	background: #3c3d40;
+	background: #c5cbdc;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
